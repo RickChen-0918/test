@@ -1,0 +1,54 @@
+a = 15
+i = 7
+binary = [0,0,0,0,0,0,0,0]
+loop while a > 0 
+    remainder = a mod 2
+    a = (a - remainder)/2 
+
+    binary[i] = remainder
+    i -= 1
+end loop
+
+
+normal division '/'
+modulus % mod
+floor division // div
+
+
+x = 29
+numbers = new Collection()
+loop while x = 1
+   numbers.addItem(x)
+   if x mod 2 = 0 then     
+      x = x / 2
+   else
+      x = x * 3 + 1
+   end if
+end loop
+numbers.addItem(x)
+
+loop while numbers.hasNext()
+    output numbers.getNext() 
+end loop
+
+
+
+flag = TRUE
+i=0
+loop while flag
+   P = 0
+   NAME = PARTICIPANTS.getNext()
+   if NAME == CURRENT
+      MINP = i
+      flag = FALSE
+   P += 1
+
+INDEX = 449
+loop while INDEX >= 0:
+   ITEM = PARTICIPANTS[INDEX]
+   if ITEM = CURRENT
+      TEAM[INDEX] = MINP
+      MINP = INDEX
+
+end loop 
+output TEAM
