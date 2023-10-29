@@ -1,0 +1,9 @@
+<h1>The Webpage</h1>
+
+<p>The price of {{ticker}} is {{quote}}</p>
+
+<P>Below are similar companies to {{ticker}}</P>
+
+{% for peer in peers %}
+<li><a href="/{{peer}}">{{peer}}</a></li>
+{% endfor %}
